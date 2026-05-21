@@ -308,7 +308,8 @@ section { padding:100px 60px; }
 #services { background:#fff; }
 .services-header { display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:48px; gap:40px; }
 .services-header-right { font-size:0.82rem; color:var(--mid); flex-shrink:0; }
-.services-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--border); }
+.services-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--border); }
+@media(max-width:1100px){ .services-grid { grid-template-columns:repeat(2,1fr); } }
 .svc-card { background:#fff; padding:44px 36px; position:relative; overflow:hidden; transition:background 0.3s; }
 .svc-card:hover { background:var(--bg-soft); }
 .svc-card::after { content:''; position:absolute; left:0; bottom:0; right:0; height:3px; background:var(--accent); transform:scaleX(0); transform-origin:left; transition:transform 0.4s; }
@@ -560,7 +561,7 @@ footer { background:var(--hero-bg); color:#fff; padding:48px 60px; }
   <a class="nav-brand" href="#"><span class="nav-brand-kr">커넥팅 통역</span><span class="nav-brand-en">All About Connecting</span></a>
   <ul class="nav-links">
     <li><a href="#about">소개</a></li><li><a href="#services">서비스</a></li>
-    <li><a href="#expertise">전문 분야</a></li><li><a href="#process">진행 방식</a></li>
+    <li><a href="/k-beauty-live-host/" style="color:var(--accent-lt);font-weight:600;">K-뷰티 라이브</a></li><li><a href="#expertise">전문 분야</a></li><li><a href="#process">진행 방식</a></li>
     <li><a href="#testimonials">후기</a></li><li><a href="#partners">파트너</a></li>
   </ul>
   <span class="lang-switch">
@@ -668,7 +669,7 @@ footer { background:var(--hero-bg); color:#fff; padding:48px 60px; }
 
 <section id="services">
   <div class="services-header">
-    <div class="reveal"><p class="sec-eyebrow">Services</p><h2 class="sec-title">핵심 서비스 <span class="hl">3가지</span></h2></div>
+    <div class="reveal"><p class="sec-eyebrow">Services</p><h2 class="sec-title">핵심 서비스 <span class="hl">4가지</span></h2></div>
     <p class="services-header-right reveal d2">프로젝트의 성격과 목적에 따라 가장 적합한 방식으로 제공합니다.</p>
   </div>
   <div class="services-grid">
@@ -690,6 +691,12 @@ footer { background:var(--hero-bg); color:#fff; padding:48px 60px; }
       <div class="svc-num">03 — MC</div><div class="svc-title">한·영 MC</div>
       <p class="svc-body">국제 행사 및 기업 이벤트에서 신뢰감 있는 진행으로 전체 흐름을 안정적으로 이끌어드립니다.<br><br>행사의 분위기와 목적을 고려하여 과하지 않으면서도 균형 잡힌 한·영 진행을 제공합니다.</p>
       <div class="svc-tags"><span class="svc-tag">국제 행사</span><span class="svc-tag">기업 이벤트</span><span class="svc-tag">포럼 · 컨퍼런스</span><span class="svc-tag">방송 중계</span></div>
+    </div>
+    <div class="svc-card reveal d3">
+      <div class="svc-num">04 — K-Beauty Live</div><div class="svc-title">K-뷰티 글로벌 라이브 쇼호스트</div>
+      <p class="svc-body">Amazon Live, TikTok Shop, Shopee Live 등 글로벌 라이브 커머스에서 K-뷰티 브랜드의 메시지를 영어권 소비자에게 직접 전달하는 쇼호스트 서비스입니다.<br><br>LG생활건강, 신세계인터내셔날 에르메스 뷰티, 니베아 독일 본사 등 글로벌 뷰티 브랜드와의 9년 협업 경험을 카메라 앞에서 풀어냅니다.</p>
+      <div class="svc-tags"><span class="svc-tag">라이브 커머스 진행</span><span class="svc-tag">영어 제품 소개 영상</span><span class="svc-tag">해외 행사 영어 MC</span></div>
+      <a href="/k-beauty-live-host/" style="display:inline-block;margin-top:18px;font-size:0.78rem;font-weight:700;color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:2px;">자세히 보기 →</a>
     </div>
   </div>
 </section>
@@ -814,6 +821,7 @@ footer { background:var(--hero-bg); color:#fff; padding:48px 60px; }
   <div class="footer-bottom">
     <div class="footer-copy">© 2026 All About Connecting. All rights reserved. 대표 조민선</div>
     <div class="footer-links">
+      <a href="/k-beauty-live-host/">K-뷰티 라이브</a>
       <a href="https://kmong.com/gig/140985" target="_blank">크몽 프로필</a>
       <a href="https://soomgo.com/profile/users/351644" target="_blank">숨고 프로필</a>
       <a href="#contact">문의하기</a>
